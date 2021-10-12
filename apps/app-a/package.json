@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/mysterycommand/multi-app-monorepo/issues"
   },
-  "homepage": "https://github.com/mysterycommand/multi-app-monorepo#readme"
+  "homepage": "https://github.com/mysterycommand/multi-app-monorepo#readme",
+  "dependencies": {
+    "@multi-app-monorepo/pkg-c": "file:../../pkgs/pkg-c"
+  },
+  "bundleDependencies": [
+    "@multi-app-monorepo/pkg-c"
+  ]
 }
