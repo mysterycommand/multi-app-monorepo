@@ -1,0 +1,23 @@
+{
+  "name": "multi-app-monorepo",
+  "version": "1.0.0",
+  "description": "A multi-app monorepo",
+  "workspaces": [
+    "apps/*",
+    "pkgs/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysterycommand/multi-app-monorepo.git"
+  },
+  "keywords": [],
+  "author": "Matt Hayes <matt@mysterycommand.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mysterycommand/multi-app-monorepo/issues"
+  },
+  "homepage": "https://github.com/mysterycommand/multi-app-monorepo#readme"
+}
