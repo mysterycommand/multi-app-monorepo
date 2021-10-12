@@ -1,3 +1,1 @@
-const { name } = require("../package.json");
-
-console.log(`${name}`);
+console.log(require("../package.json").name);
